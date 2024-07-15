@@ -1,0 +1,29 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "haohao": "node src/ind.js",
+    "app": "node src/app.js",
+    "color": "node src/color.js",
+    "date":"node src/date_luxon.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "figlet": "^1.7.0",
+    "luxon": "^3.4.4",
+    "morgan": "^1.10.0",
+    "randomcolor": "^0.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
